@@ -1,0 +1,168 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0,0,0,0.1);
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* container */
+.container{
+    padding:10px;
+    width:400px;
+    margin:0 auto;
+}
+
+
+
+/*content */
+.content{
+    width:380px;
+    background-color: #FFF;
+    overflow: auto;
+}
+.content::-webkit-scrollbar { 
+    display: none; 
+}
+.content ul{
+    padding:0;
+    margin:0;
+}
+.item{
+    width:380px;
+    height: 45px;
+    min-height: 45px;
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.item i.co{
+    position: absolute;
+    font-size: 25px;
+    padding-left:5px;
+    left:15px;
+    top:10px;
+}
+.item i.co:hover{
+    cursor: pointer;
+}
+.fa-check-circle{
+    color:#6eb200;
+}
+.item p.text{
+    position: absolute;
+    padding:0;
+    margin:0;
+    font-size: 20px;
+    left:50px;
+    top:5px;
+    background-color: #FFF;
+    max-width:285px;
+}
+.lineThrough{
+    text-decoration: line-through;
+    color : #ccc;
+}
+.item i.de{
+    position: absolute;
+    font-size: 25px;
+    right:15px;
+    top:10px;
+}
+.item i.de:hover{
+    color:#af0000;
+    cursor: pointer;
+}
+/*add item*/
+.add-to-do{
+    position: relative;
+    width: 360px;
+    height:40px;
+    background-color: #FFF;
+    padding: 10px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+
+.add-to-do input{
+    position: absolute;
+    left: 5px;
+    height: 35px;
+    width: 280px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    padding-left:10px;
+}
+.add-to-do input::-webkit-input-placeholder { 
+    color: #4162f6;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+
+
+#btn{
+    position: absolute;
+    height: 38px;
+    width: 70px;
+    right: 5px;
+    background-color: #4162f6;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #4162f6;
+    border: 1px solid #4162f6;
+}
+.add-to-do i{
+    position: absolute;
+
+    font-size: 40px;
+    color: #4162f6;
+}
+#count{
+    position: absolute;
+    height: 20px;
+    width: 380px;
+    background-color: white;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+#counter{
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
